@@ -1260,3 +1260,1169 @@ Recommended: 30.0.101.1340
 [2022.10.30-20.39.53:330][630]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 87F4AE16FFA552D71D883B76525260549EDA7C8B), compiling. 
 [2022.10.30-20.40.56:690][859]LogSlate: Window 'Seletor de Cor' being destroyed
 [2022.10.30-20.41.16:984][277]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2022.10.30-20.45.05:870][447]LogStatusBar: Looking status bar with open content browser drawer...
+[2022.10.30-20.45.05:870][447]LogStatusBar: Using status bar: LevelEditor.StatusBar to dock content browser
+[2022.10.30-20.45.05:925][447]LogViewport: Scene viewport resized to 1526x585, mode Windowed.
+[2022.10.30-20.45.29:813][ 11]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_66 in PCD3D_SM5, Default, SM5 (DDC key hash: 4DE472F4325B4ACCE926B208F32389C1C7B293C5), compiling. 
+[2022.10.30-20.45.37:140][159]LogShaderCompilers: Display: ================================================
+[2022.10.30-20.45.37:140][159]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.30-20.45.37:140][159]LogShaderCompilers: Display: Total job queries 405, among them cache hits 287 (70.86%)
+[2022.10.30-20.45.37:140][159]LogShaderCompilers: Display: Tracking 91 distinct input hashes that result in 31 distinct outputs (34.07%)
+[2022.10.30-20.45.37:140][159]LogShaderCompilers: Display: RAM used: 0.08 MB (0.00 GB) of 563.20 MB (0.55 GB) budget. Usage: 0.01%
+[2022.10.30-20.45.37:140][159]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.30-20.45.37:140][159]LogShaderCompilers: Display: Shaders Compiled: 44
+[2022.10.30-20.45.37:141][159]LogShaderCompilers: Display: Jobs assigned 94, completed 91 (96.81%)
+[2022.10.30-20.45.37:141][159]LogShaderCompilers: Display: Average time worker was idle: 45.21 s
+[2022.10.30-20.45.37:141][159]LogShaderCompilers: Display: Time job spent in pending queue: average 4.46 s, longest 40.76 s
+[2022.10.30-20.45.37:141][159]LogShaderCompilers: Display: Job execution time: average 9.98 s, max 33.91 s
+[2022.10.30-20.45.37:141][159]LogShaderCompilers: Display: Job life time (pending + execution): average 14.51 s, max 46.89
+[2022.10.30-20.45.37:141][159]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 196.00 s
+[2022.10.30-20.45.37:141][159]LogShaderCompilers: Display: Jobs were issued in 81 batches (only local compilation was used), average 1.16 jobs/batch
+[2022.10.30-20.45.37:141][159]LogShaderCompilers: Display: Average processing rate: 0.46 jobs/sec
+[2022.10.30-20.45.37:141][159]LogShaderCompilers: Display: Effective parallelization: 2.50 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2022.10.30-20.45.37:141][159]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.30-20.45.37:141][159]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    8 times, average 10.30 sec, max 32.71 sec, min 4.03 sec)
+[2022.10.30-20.45.37:141][159]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   15 times, average 8.64 sec, max 33.47 sec, min 1.62 sec)
+[2022.10.30-20.45.37:141][159]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   15 times, average 7.77 sec, max 33.38 sec, min 1.67 sec)
+[2022.10.30-20.45.37:141][159]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    4 times, average 4.76 sec, max 5.04 sec, min 4.64 sec)
+[2022.10.30-20.45.37:141][159]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    4 times, average 4.25 sec, max 4.51 sec, min 4.12 sec)
+[2022.10.30-20.45.37:141][159]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.30-20.45.37:141][159]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 26.45% of total time (compiled   15 times, average 8.64 sec, max 33.47 sec, min 1.62 sec)
+[2022.10.30-20.45.37:141][159]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 23.80% of total time (compiled   15 times, average 7.77 sec, max 33.38 sec, min 1.67 sec)
+[2022.10.30-20.45.37:141][159]LogShaderCompilers: Display:                                                 FLumenCardVS - 16.82% of total time (compiled    8 times, average 10.30 sec, max 32.71 sec, min 4.03 sec)
+[2022.10.30-20.45.37:142][159]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 3.89% of total time (compiled    4 times, average 4.76 sec, max 5.04 sec, min 4.64 sec)
+[2022.10.30-20.45.37:142][159]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 3.47% of total time (compiled    4 times, average 4.25 sec, max 4.51 sec, min 4.12 sec)
+[2022.10.30-20.45.37:142][159]LogShaderCompilers: Display: ================================================
+[2022.10.30-20.46.04:037][ 34]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 46EE6EE16F320AC397D64C75701283A689E62B35), compiling. 
+[2022.10.30-20.46.04:051][ 34]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 9DA68A9D9AC196B5E44FAF94EC7CDC9EF298AF1F), compiling. 
+[2022.10.30-20.46.04:063][ 34]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: BAD34D1F36CF7403976C32334A2CD28685476458), compiling. 
+[2022.10.30-20.46.04:069][ 34]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.30-20.46.04:069][ 34]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.04:069][ 34]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.04:069][ 34]MaterialEditorStats: Shader Count: 0
+[2022.10.30-20.46.04:153][ 36]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.30-20.46.04:153][ 36]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.04:153][ 36]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.04:153][ 36]MaterialEditorStats: Shader Count: 4
+[2022.10.30-20.46.05:254][ 71]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: D7ECF1333C18276D9B47C9B7610190013D3CC46E), compiling. 
+[2022.10.30-20.46.05:267][ 71]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 30087B0DB71BF91E8F6FC0F926CA127E55C976C3), compiling. 
+[2022.10.30-20.46.05:277][ 71]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 20711C22B4F5C83B4755460F06FDD7C36C769034), compiling. 
+[2022.10.30-20.46.05:282][ 71]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.30-20.46.05:282][ 71]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.05:282][ 71]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.05:282][ 71]MaterialEditorStats: Shader Count: 0
+[2022.10.30-20.46.05:353][ 73]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.30-20.46.05:353][ 73]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.05:353][ 73]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.05:353][ 73]MaterialEditorStats: Shader Count: 4
+[2022.10.30-20.46.06:019][ 95]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 1DCD642A1A85BAD03615CC4502AE88C34177A5D5), compiling. 
+[2022.10.30-20.46.06:036][ 95]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 58119FC14F2DD11A35953599A86B837586A6CD54), compiling. 
+[2022.10.30-20.46.06:046][ 95]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 434A03436B98EA78A1AF8058E6D3B8AE8263AAF8), compiling. 
+[2022.10.30-20.46.06:051][ 95]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.30-20.46.06:051][ 95]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.06:051][ 95]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.06:051][ 95]MaterialEditorStats: Shader Count: 0
+[2022.10.30-20.46.06:126][ 97]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.30-20.46.06:127][ 97]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.06:127][ 97]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.06:127][ 97]MaterialEditorStats: Shader Count: 4
+[2022.10.30-20.46.06:670][115]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 18B0C2C10AAA571EB2C6C6B92805AAB984EEE1EA), compiling. 
+[2022.10.30-20.46.06:684][115]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 1198AF8009651D3D2DA4E979A656CA11AE84B64C), compiling. 
+[2022.10.30-20.46.06:697][115]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 7CFC9C15A800FCB06946B7F69B318800C7558913), compiling. 
+[2022.10.30-20.46.06:704][115]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.30-20.46.06:704][115]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.06:704][115]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.06:704][115]MaterialEditorStats: Shader Count: 0
+[2022.10.30-20.46.06:780][117]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.30-20.46.06:780][117]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.06:780][117]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.06:780][117]MaterialEditorStats: Shader Count: 4
+[2022.10.30-20.46.07:391][136]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: C55E7C40E40444DB633144645CA57E091FA2CEF4), compiling. 
+[2022.10.30-20.46.07:403][136]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: A0A816B7AEF48EFC99040885E122C5A0E63BD3E6), compiling. 
+[2022.10.30-20.46.07:413][136]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 2D8FD62E935909A490EADE41A9F0D8F3B1CABA06), compiling. 
+[2022.10.30-20.46.07:418][136]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.30-20.46.07:418][136]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.07:418][136]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.07:418][136]MaterialEditorStats: Shader Count: 0
+[2022.10.30-20.46.07:488][138]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.30-20.46.07:488][138]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.07:488][138]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.07:488][138]MaterialEditorStats: Shader Count: 4
+[2022.10.30-20.46.08:035][155]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 3E222319629E177195E625EAE77F226717DF48BC), compiling. 
+[2022.10.30-20.46.08:050][155]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 50F2B62DEB3FF7475FC6482B0C5ACFBBA9710324), compiling. 
+[2022.10.30-20.46.08:064][155]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 29B88F29A9F8D19569D3C7531DB75F340D23898D), compiling. 
+[2022.10.30-20.46.08:068][155]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.30-20.46.08:068][155]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.08:068][155]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.08:068][155]MaterialEditorStats: Shader Count: 0
+[2022.10.30-20.46.08:137][157]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.30-20.46.08:137][157]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.08:138][157]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.08:138][157]MaterialEditorStats: Shader Count: 4
+[2022.10.30-20.46.09:123][192]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 3016F8E199C3C7442530660F26B9B8B0386B8C85), compiling. 
+[2022.10.30-20.46.09:137][192]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 7F3F1B63AD3B9F339D7F8769CCFB009F3EEB4584), compiling. 
+[2022.10.30-20.46.09:148][192]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 7FC877D0E0A42DBB3BA5B5A8674D6F49A3DB7AE6), compiling. 
+[2022.10.30-20.46.09:153][192]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.30-20.46.09:153][192]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.09:153][192]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.09:153][192]MaterialEditorStats: Shader Count: 0
+[2022.10.30-20.46.09:223][194]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.30-20.46.09:223][194]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.09:223][194]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.09:223][194]MaterialEditorStats: Shader Count: 4
+[2022.10.30-20.46.09:788][212]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: E984EE03B76965E0C5A1AB7C488A43C482C8ABC4), compiling. 
+[2022.10.30-20.46.09:802][212]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: A5574AB44F398A253D63DE6955A178D97E574F26), compiling. 
+[2022.10.30-20.46.09:812][212]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: CD2418A018CEC9D2658B2B555124F8B73706CAF7), compiling. 
+[2022.10.30-20.46.09:817][212]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.30-20.46.09:817][212]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.09:817][212]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.09:817][212]MaterialEditorStats: Shader Count: 0
+[2022.10.30-20.46.09:888][214]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.30-20.46.09:888][214]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.09:889][214]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.09:889][214]MaterialEditorStats: Shader Count: 4
+[2022.10.30-20.46.10:395][230]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: D1760D56B0733E49F3792F83D8CA6F0CCC23AC16), compiling. 
+[2022.10.30-20.46.10:407][230]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 6C5B5EDECE13A9B9E885D1AEBBC29282F223D878), compiling. 
+[2022.10.30-20.46.10:417][230]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: E393388BBE86655606DFA49A27D3C88DE166E1E7), compiling. 
+[2022.10.30-20.46.10:422][230]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.30-20.46.10:422][230]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.10:422][230]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.10:422][230]MaterialEditorStats: Shader Count: 0
+[2022.10.30-20.46.10:498][232]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.30-20.46.10:498][232]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.10:498][232]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.10:499][232]MaterialEditorStats: Shader Count: 4
+[2022.10.30-20.46.10:930][246]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: A7524AFEA5F0EBDBDAD3A6165FE9D851B45C4498), compiling. 
+[2022.10.30-20.46.10:942][246]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 96AAE5DC6400039B5501E24F15CF6EB7A8F73640), compiling. 
+[2022.10.30-20.46.10:952][246]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 11CDD3856CD9DADFBC05003B90AA778E665D1353), compiling. 
+[2022.10.30-20.46.10:957][246]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.30-20.46.10:957][246]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.10:957][246]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.10:957][246]MaterialEditorStats: Shader Count: 0
+[2022.10.30-20.46.11:037][248]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.30-20.46.11:037][248]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.11:037][248]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.11:037][248]MaterialEditorStats: Shader Count: 4
+[2022.10.30-20.46.12:187][284]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 15FB7B28B96F438CE08B06C294A1D437D9455938), compiling. 
+[2022.10.30-20.46.12:199][284]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 83C73F261B696545D7660C71CAFC803DBAC3BA38), compiling. 
+[2022.10.30-20.46.12:207][284]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: D094889E35BAEB1B99453D6D278969B0B919E99D), compiling. 
+[2022.10.30-20.46.12:213][284]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.30-20.46.12:213][284]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.12:213][284]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.12:213][284]MaterialEditorStats: Shader Count: 0
+[2022.10.30-20.46.12:748][300]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 2E51249335F049B52CBED9B8FB3022B1D3B7E5E9), compiling. 
+[2022.10.30-20.46.12:766][300]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 0F57DA8EF7728F58205DFD952E1174E1BA99CB0C), compiling. 
+[2022.10.30-20.46.12:779][300]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: B997C4C858C0E126FCDA377DD8A808E95172E5D5), compiling. 
+[2022.10.30-20.46.12:883][302]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.30-20.46.12:883][302]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.12:883][302]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.12:883][302]MaterialEditorStats: Shader Count: 4
+[2022.10.30-20.46.13:347][316]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: CF40CB5F9F6D5E725EC2D45A68C43833BB0D4391), compiling. 
+[2022.10.30-20.46.13:368][316]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 50B9C996913FEF0CD66F7021CB2AEE4D30D647BC), compiling. 
+[2022.10.30-20.46.13:382][316]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 3CD5C0745131ACB6A45C5AB122B5C904778F1D4B), compiling. 
+[2022.10.30-20.46.13:390][316]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.30-20.46.13:390][316]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.13:390][316]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.13:390][316]MaterialEditorStats: Shader Count: 0
+[2022.10.30-20.46.13:477][318]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.30-20.46.13:477][318]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.13:477][318]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.13:477][318]MaterialEditorStats: Shader Count: 4
+[2022.10.30-20.46.14:174][339]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 0CEF0CAD53D959CBFA66FBE1CD8683C28C6D43BA), compiling. 
+[2022.10.30-20.46.14:193][339]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 0C1105C6B178E077709BD4E2362515DE3E04CBD5), compiling. 
+[2022.10.30-20.46.14:207][339]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: FD481A0C9EDED9F8F78935C47314F58DA93F0D2F), compiling. 
+[2022.10.30-20.46.14:215][339]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.30-20.46.14:215][339]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.14:215][339]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.14:215][339]MaterialEditorStats: Shader Count: 0
+[2022.10.30-20.46.14:339][341]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.30-20.46.14:339][341]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.14:339][341]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.14:339][341]MaterialEditorStats: Shader Count: 4
+[2022.10.30-20.46.14:850][357]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: F0A0E883CF4E51487F6125AF202407695DBB1BD3), compiling. 
+[2022.10.30-20.46.14:875][357]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: F9D79E2032503B14D9EBAB55A42916FC3DE62A0F), compiling. 
+[2022.10.30-20.46.14:895][357]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: D1AA0965F1D9ABA5959F4C27F23BED3F8A0FE79E), compiling. 
+[2022.10.30-20.46.14:904][357]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.30-20.46.14:904][357]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.14:904][357]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.14:904][357]MaterialEditorStats: Shader Count: 0
+[2022.10.30-20.46.15:036][359]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.30-20.46.15:037][359]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.15:037][359]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.15:037][359]MaterialEditorStats: Shader Count: 4
+[2022.10.30-20.46.15:814][373]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 2BBD0B888B7758EE19F30F123F3ABC35C22541EB), compiling. 
+[2022.10.30-20.46.15:832][373]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 9711E4629C460645D3E8BCDAAA68DF256FC7DE18), compiling. 
+[2022.10.30-20.46.15:845][373]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 7DE6A8975E67A365B7AA36601E1B5760892ABC08), compiling. 
+[2022.10.30-20.46.16:830][408]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 2D8CE889245DB93C5859F94E49598C269FF473EF), compiling. 
+[2022.10.30-20.46.16:852][408]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: FFF8D4054ED5A85AB31DAC24B11A52C7A00C5029), compiling. 
+[2022.10.30-20.46.16:866][408]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: EEF85217C67C012F278EB950B26368CB513AB3A9), compiling. 
+[2022.10.30-20.46.16:874][408]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.30-20.46.16:874][408]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.16:874][408]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.16:874][408]MaterialEditorStats: Shader Count: 0
+[2022.10.30-20.46.16:981][410]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.30-20.46.16:981][410]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.16:981][410]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.16:981][410]MaterialEditorStats: Shader Count: 4
+[2022.10.30-20.46.32:755][731]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 66C1AD814F7B95E3292113459703D773A277FC9E), compiling. 
+[2022.10.30-20.46.32:772][731]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 0486DDC50D63443290ADBDEE6CDD16B134AE2D7D), compiling. 
+[2022.10.30-20.46.32:781][731]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 038EDAC43716DF8A9FCB72378BFE1D319E787CAA), compiling. 
+[2022.10.30-20.46.32:788][731]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.30-20.46.32:788][731]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.32:788][731]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.32:788][731]MaterialEditorStats: Shader Count: 0
+[2022.10.30-20.46.32:890][733]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.30-20.46.32:890][733]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.32:891][733]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.32:891][733]MaterialEditorStats: Shader Count: 4
+[2022.10.30-20.46.33:322][745]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 6649227BE8F12604FC063BDE650CBA6D2A323631), compiling. 
+[2022.10.30-20.46.33:337][745]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 8BA810A5435EE1B3B00BA3D0FCCF5F183119FB8A), compiling. 
+[2022.10.30-20.46.33:346][745]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: C7ABD972B15AC54E0B3819087370747CEF5E53AF), compiling. 
+[2022.10.30-20.46.33:353][745]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.30-20.46.33:354][745]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.33:354][745]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.33:354][745]MaterialEditorStats: Shader Count: 0
+[2022.10.30-20.46.33:448][747]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.30-20.46.33:448][747]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.33:448][747]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.33:448][747]MaterialEditorStats: Shader Count: 4
+[2022.10.30-20.46.36:823][823]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: EBE7323632B94F76E85A12CEAB9CF7D713CD0D7D), compiling. 
+[2022.10.30-20.46.36:837][823]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 03E563D160CC7A40A4A3692D4FB6DE16F8998C66), compiling. 
+[2022.10.30-20.46.36:847][823]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: CDE4F70293B28DFC8A2CD1FE98841F5FE39A8FDE), compiling. 
+[2022.10.30-20.46.36:854][823]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.30-20.46.36:854][823]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.36:854][823]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.36:854][823]MaterialEditorStats: Shader Count: 0
+[2022.10.30-20.46.36:968][825]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.30-20.46.36:968][825]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.36:968][825]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.36:968][825]MaterialEditorStats: Shader Count: 4
+[2022.10.30-20.46.37:330][835]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: E16FA506F72AC3B3F153239BD377C51749CF182E), compiling. 
+[2022.10.30-20.46.37:350][835]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 24A3D00355BEC2A1C87802D63D6342FD2BD3899E), compiling. 
+[2022.10.30-20.46.37:364][835]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 7120DE793CC38DB6B586533870ACA5D288135248), compiling. 
+[2022.10.30-20.46.37:372][835]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.30-20.46.37:372][835]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.37:372][835]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.37:372][835]MaterialEditorStats: Shader Count: 0
+[2022.10.30-20.46.37:483][837]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.30-20.46.37:483][837]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.46.37:484][837]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.46.37:484][837]MaterialEditorStats: Shader Count: 4
+[2022.10.30-20.47.22:366][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2022.10.30-20.47.22:549][ 14]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Mapas/Principal_Auto1
+[2022.10.30-20.47.22:550][ 14]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/Teste/Saved/Principal_Auto10D90A8954C9B56EBA8FA05B8B8A51094.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/Teste/Saved/Autosaves/Game/Mapas/Principal_Auto1.umap'
+[2022.10.30-20.47.22:561][ 14]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Mapas/Principal' took 0.227
+[2022.10.30-20.47.22:561][ 14]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.227
+[2022.10.30-20.47.57:092][491]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe -Mode=QueryTargets -Output="C:/Program Files/Epic Games/UE_5.0/Engine/Intermediate/TargetInfo.json"]
+[2022.10.30-20.47.57:448][491]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe -Mode=QueryTargets -Output="C:/Program Files/Epic Games/UE_5.0/Engine/Intermediate/TargetInfo.json"]
+[2022.10.30-20.47.57:551][491]LogDesktopPlatform: Warning: Unable to read target info for engine
+[2022.10.30-20.47.57:603][491]LogTurnkeySupport: Display: Adding device menu item for DESKTOP-40R5ENR
+[2022.10.30-20.47.57:603][491]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="C:/Users/User/Documents/Unreal Projects/Teste/Teste.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/User/Documents/Unreal Projects/Teste/Intermediate/TurnkeyReport_1.log" -log="C:/Users/User/Documents/Unreal Projects/Teste/Intermediate/TurnkeyLog_1.log" -project="C:/Users/User/Documents/Unreal Projects/Teste/Teste.uproject"  -Device=Win64@DESKTOP-40R5ENR'
+[2022.10.30-20.47.57:604][491]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/User/Documents/Unreal Projects/Teste/Teste.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/User/Documents/Unreal Projects/Teste/Intermediate/TurnkeyReport_1.log" -log="C:/Users/User/Documents/Unreal Projects/Teste/Intermediate/TurnkeyLog_1.log" -project="C:/Users/User/Documents/Unreal Projects/Teste/Teste.uproject"  -Device=Win64@DESKTOP-40R5ENR" -nocompile ]
+[2022.10.30-20.47.57:832][496]LogTurnkeySupport: Completed device detection: Code = 0
+[2022.10.30-20.47.59:899][659]LogTurnkeySupport: Display: Adding device menu item for DESKTOP-40R5ENR
+[2022.10.30-20.48.21:661][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mapas/Principal" FILE="../../../../../../Users/User/Documents/Unreal Projects/Teste/Content/Mapas/Principal.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.30-20.48.21:683][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2022.10.30-20.48.21:802][879]LogSavePackage: Moving output files for package: /Game/Mapas/Principal
+[2022.10.30-20.48.21:804][879]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/Teste/Saved/Principal6DF7A67344A513B199E877AF3B2BD452.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/Teste/Content/Mapas/Principal.umap'
+[2022.10.30-20.48.21:825][879]LogFileHelpers: Nenhuma alteração a salvar!
+[2022.10.30-20.48.21:839][879]AssetCheck: New page: Asset Save: Principal
+[2022.10.30-20.48.21:839][879]LogContentValidation: Display: Validating World /Game/Mapas/Principal.Principal
+[2022.10.30-20.48.23:097][896]LogTurnkeySupport: Display: Adding device menu item for DESKTOP-40R5ENR
+[2022.10.30-20.48.44:167][377]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2022.10.30-20.48.45:573][461]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2022.10.30-20.48.45:573][461]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2022.10.30-20.48.45:574][461]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2022.10.30-20.48.45:574][461]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2022.10.30-20.48.45:574][461]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2022.10.30-20.48.45:574][461]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2022.10.30-20.48.45:574][461]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2022.10.30-20.48.45:576][461]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2022.10.30-20.48.45:576][461]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2022.10.30-20.48.45:576][461]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:0]] deferred - dummy variable created
+[2022.10.30-20.48.45:612][461]LogMaterial: Display: Missing cached shadermap for HDRI_Epic_Courtyard_Daylight_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: ABE7575BD1D1DA98A07D918EB5FF78E12C8F79ED), compiling. 
+[2022.10.30-20.48.45:613][461]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\StarterContent\HDRI\HDRI_Epic_Courtyard_Daylight_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> UVW input required for cubemap sample
+
+[2022.10.30-20.48.47:921][463]LogContentStreaming: Texture pool size now 1000 MB
+[2022.10.30-20.48.49:080][530]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [Scalability]
+[2022.10.30-20.48.49:081][530]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [Scalability]
+[2022.10.30-20.48.49:081][530]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [Scalability]
+[2022.10.30-20.48.49:081][530]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@0] File [Scalability]
+[2022.10.30-20.48.49:081][530]LogConfig: Applying CVar settings from Section [ReflectionQuality@0] File [Scalability]
+[2022.10.30-20.48.49:081][530]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [Scalability]
+[2022.10.30-20.48.49:081][530]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [Scalability]
+[2022.10.30-20.48.49:081][530]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [Scalability]
+[2022.10.30-20.48.49:081][530]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [Scalability]
+[2022.10.30-20.48.49:081][530]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [Scalability]
+[2022.10.30-20.48.49:081][530]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:1]] deferred - dummy variable created
+[2022.10.30-20.48.49:107][530]LogMaterial: Display: Missing cached shadermap for HDRI_Epic_Courtyard_Daylight_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: ABE7575BD1D1DA98A07D918EB5FF78E12C8F79ED), compiling. 
+[2022.10.30-20.48.49:108][530]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\StarterContent\HDRI\HDRI_Epic_Courtyard_Daylight_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> UVW input required for cubemap sample
+
+[2022.10.30-20.48.49:201][533]LogContentStreaming: Texture pool size now 400 MB
+[2022.10.30-20.49.20:309][896]LogViewport: Scene viewport resized to 1170x585, mode Windowed.
+[2022.10.30-20.51.34:103][ 70]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: D8F4F271DFE20FF932068E2C9AB9AE422BE0DA80), compiling. 
+[2022.10.30-20.51.34:117][ 70]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 61D63E0C601EC34500356543E7E2CD40E74C2559), compiling. 
+[2022.10.30-20.51.34:127][ 70]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: FE137B6CD9C4CAFAB31AC606D372440F8F79089C), compiling. 
+[2022.10.30-20.51.34:133][ 70]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.30-20.51.34:133][ 70]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.51.34:133][ 70]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.51.34:133][ 70]MaterialEditorStats: Shader Count: 0
+[2022.10.30-20.51.34:190][ 71]LogShaderCompilers: Display: ================================================
+[2022.10.30-20.51.34:190][ 71]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.30-20.51.34:190][ 71]LogShaderCompilers: Display: Total job queries 527, among them cache hits 405 (76.85%)
+[2022.10.30-20.51.34:190][ 71]LogShaderCompilers: Display: Tracking 99 distinct input hashes that result in 36 distinct outputs (36.36%)
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display: RAM used: 0.09 MB (0.00 GB) of 563.20 MB (0.55 GB) budget. Usage: 0.02%
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display: Shaders Compiled: 58
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display: Jobs assigned 99, completed 99 (100.00%)
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display: Average time worker was idle: 43.60 s
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display: Time job spent in pending queue: average 4.39 s, longest 40.76 s
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display: Job execution time: average 9.66 s, max 33.91 s
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display: Job life time (pending + execution): average 14.05 s, max 46.89
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 209.54 s
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display: Jobs were issued in 86 batches (only local compilation was used), average 1.15 jobs/batch
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display: Average processing rate: 0.47 jobs/sec
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display: Effective parallelization: 2.53 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    9 times, average 9.73 sec, max 32.71 sec, min 4.03 sec)
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   16 times, average 8.45 sec, max 33.47 sec, min 1.62 sec)
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   16 times, average 7.63 sec, max 33.38 sec, min 1.67 sec)
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display:                                      FLandscapeGrassWeightVS (compiled    1 times, average 6.07 sec, max 6.07 sec, min 6.07 sec)
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    5 times, average 5.17 sec, max 6.78 sec, min 4.64 sec)
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 25.45% of total time (compiled   16 times, average 8.45 sec, max 33.47 sec, min 1.62 sec)
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 23.01% of total time (compiled   16 times, average 7.63 sec, max 33.38 sec, min 1.67 sec)
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display:                                                 FLumenCardVS - 16.49% of total time (compiled    9 times, average 9.73 sec, max 32.71 sec, min 4.03 sec)
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 4.86% of total time (compiled    5 times, average 5.17 sec, max 6.78 sec, min 4.64 sec)
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 4.41% of total time (compiled    5 times, average 4.68 sec, max 6.43 sec, min 4.12 sec)
+[2022.10.30-20.51.34:191][ 71]LogShaderCompilers: Display: ================================================
+[2022.10.30-20.51.34:222][ 72]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.30-20.51.34:222][ 72]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.51.34:222][ 72]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.51.34:222][ 72]MaterialEditorStats: Shader Count: 4
+[2022.10.30-20.51.34:712][ 89]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: D620EA89E8D8301C3BF3EBA5F7BB71578B35FD90), compiling. 
+[2022.10.30-20.51.34:725][ 89]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 43D5CA80F83798A11E3715A59D1AC9BF284CB1FF), compiling. 
+[2022.10.30-20.51.34:736][ 89]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 212797A0FFB6B0148802368C2EFA063E5A1A302D), compiling. 
+[2022.10.30-20.51.34:741][ 89]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.30-20.51.34:741][ 89]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.51.34:742][ 89]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.51.34:742][ 89]MaterialEditorStats: Shader Count: 0
+[2022.10.30-20.51.34:822][ 91]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.30-20.51.34:822][ 91]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.51.34:822][ 91]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.51.34:822][ 91]MaterialEditorStats: Shader Count: 4
+[2022.10.30-20.51.36:026][134]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: A5448DA1CD1AFCB316010ABE2A0215FA89C2F08C), compiling. 
+[2022.10.30-20.51.36:042][134]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: CFF0887C8D09157FB7EFDA02A21AFB2C5DCD9B16), compiling. 
+[2022.10.30-20.51.36:056][134]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 899D06A4FAA0F7F7FA9BFED318DB556668C97591), compiling. 
+[2022.10.30-20.51.36:062][134]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.30-20.51.36:062][134]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.51.36:062][134]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.51.36:062][134]MaterialEditorStats: Shader Count: 0
+[2022.10.30-20.51.36:152][136]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.30-20.51.36:152][136]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.51.36:152][136]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.51.36:152][136]MaterialEditorStats: Shader Count: 4
+[2022.10.30-20.51.36:663][154]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: CBE33CD9940FB7177FEB7E6076B3686EC5EB7AF2), compiling. 
+[2022.10.30-20.51.36:677][154]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 57171E7702D350A004228CF6EE28F5C2797B8B29), compiling. 
+[2022.10.30-20.51.36:688][154]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: AE760EB2C98FB2FE1AA4D16A95466D25200C2AFC), compiling. 
+[2022.10.30-20.51.36:693][154]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.30-20.51.36:693][154]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.51.36:693][154]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.51.36:693][154]MaterialEditorStats: Shader Count: 0
+[2022.10.30-20.51.36:784][156]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.30-20.51.36:784][156]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.51.36:784][156]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.51.36:784][156]MaterialEditorStats: Shader Count: 4
+[2022.10.30-20.51.41:796][264]LogMaterialEditor: Saving and Compiling material Relevopaisagem
+[2022.10.30-20.51.42:546][264]LogMaterial: Display: Missing cached shadermap for Preview:Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: EA870E3D6A6482BA7045168957FA022E97012BC0), compiling. 
+[2022.10.30-20.51.42:566][264]LogMaterial: Display: Missing cached shadermap for Relevopaisagem in PCD3D_SM5, Default, SM5 (DDC key hash: 389D77F98B7B621E5E57F9C626CE02FE9CCB98FD), compiling. 
+[2022.10.30-20.51.42:587][264]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_66 in PCD3D_SM5, Default, SM5 (DDC key hash: C4E38802C31E757EBC5BE90584AFFB8D966EA457), compiling. 
+[2022.10.30-20.51.42:709][264]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2022.10.30-20.51.46:693][264]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_15 in PCD3D_SM5, Default, SM5 (DDC key hash: BEC57216761151E5E0C64BE91CB1A03E90DB6204), compiling. 
+[2022.10.30-20.51.46:717][264]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_16 in PCD3D_SM5, Default, SM5 (DDC key hash: 86AF8E1B1B4C7996EE57EC91F62E54CA7CF1FCB4), compiling. 
+[2022.10.30-20.51.46:718][264]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_16 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.51.46:721][264]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_16 in PCD3D_SM5, Default, SM5 (DDC key hash: 86AF8E1B1B4C7996EE57EC91F62E54CA7CF1FCB4), compiling. 
+[2022.10.30-20.51.46:722][264]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_16 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.51.46:726][264]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_17 in PCD3D_SM5, Default, SM5 (DDC key hash: EA3523A5DDC38460D13EFEA1EA569D5358E656C5), compiling. 
+[2022.10.30-20.51.46:727][264]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_17 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.51.46:732][264]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_17 in PCD3D_SM5, Default, SM5 (DDC key hash: EA3523A5DDC38460D13EFEA1EA569D5358E656C5), compiling. 
+[2022.10.30-20.51.46:734][264]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_17 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.51.46:908][264]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_19 in PCD3D_SM5, Default, SM5 (DDC key hash: 86AF8E1B1B4C7996EE57EC91F62E54CA7CF1FCB4), compiling. 
+[2022.10.30-20.51.46:910][264]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_19 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.51.46:913][264]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_19 in PCD3D_SM5, Default, SM5 (DDC key hash: 86AF8E1B1B4C7996EE57EC91F62E54CA7CF1FCB4), compiling. 
+[2022.10.30-20.51.46:914][264]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_19 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.51.46:919][264]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_20 in PCD3D_SM5, Default, SM5 (DDC key hash: EA3523A5DDC38460D13EFEA1EA569D5358E656C5), compiling. 
+[2022.10.30-20.51.46:920][264]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_20 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.51.46:923][264]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_20 in PCD3D_SM5, Default, SM5 (DDC key hash: EA3523A5DDC38460D13EFEA1EA569D5358E656C5), compiling. 
+[2022.10.30-20.51.46:924][264]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_20 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.51.47:375][264]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.10.30-20.51.49:819][264]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.10.30-20.52.00:238][264]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.005013s (10.593492s overbudget)
+[2022.10.30-20.52.00:261][264]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_22 in PCD3D_SM5, Default, SM5 (DDC key hash: 86AF8E1B1B4C7996EE57EC91F62E54CA7CF1FCB4), compiling. 
+[2022.10.30-20.52.00:263][264]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_22 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.52.00:265][264]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_22 in PCD3D_SM5, Default, SM5 (DDC key hash: 86AF8E1B1B4C7996EE57EC91F62E54CA7CF1FCB4), compiling. 
+[2022.10.30-20.52.00:266][264]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_22 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.52.00:271][264]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_23 in PCD3D_SM5, Default, SM5 (DDC key hash: EA3523A5DDC38460D13EFEA1EA569D5358E656C5), compiling. 
+[2022.10.30-20.52.00:273][264]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_23 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.52.00:275][264]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_23 in PCD3D_SM5, Default, SM5 (DDC key hash: EA3523A5DDC38460D13EFEA1EA569D5358E656C5), compiling. 
+[2022.10.30-20.52.00:277][264]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_23 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.52.00:426][264]LogSavePackage: Moving output files for package: /Game/Mapas/Landscape/Materiais/Relevopaisagem
+[2022.10.30-20.52.00:428][264]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/Teste/Saved/Relevopaisagem9270A3EE4D055E3B6ED94A9D8D005C1B.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/Teste/Content/Mapas/Landscape/Materiais/Relevopaisagem.uasset'
+[2022.10.30-20.52.00:446][264]AssetCheck: New page: Asset Save: Relevopaisagem
+[2022.10.30-20.52.00:446][264]LogContentValidation: Display: Validating Material /Game/Mapas/Landscape/Materiais/Relevopaisagem.Relevopaisagem
+[2022.10.30-20.52.00:477][264]MaterialEditorStats: Base pass shader: 123 instructions
+[2022.10.30-20.52.00:477][264]MaterialEditorStats: Base pass vertex shader: 112 instructions
+[2022.10.30-20.52.00:477][264]MaterialEditorStats: Texture samplers: 3/16
+[2022.10.30-20.52.00:477][264]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.30-20.52.00:477][264]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.30-20.52.00:477][264]MaterialEditorStats: Shader Count: 32
+[2022.10.30-20.52.12:281][506]LogTurnkeySupport: Display: Adding device menu item for DESKTOP-40R5ENR
+[2022.10.30-20.52.58:810][ 61]LogSlate: Window 'Criar Novo Objeto de Informações de Camada de Paisagem' being destroyed
+[2022.10.30-20.52.58:921][ 61]LogTexture: Display: Building textures: /Game/Mapas/Principal.Principal:PersistentLevel.Landscape_0.Weightmap_0 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.10.30-20.52.58:928][ 61]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_132 in PCD3D_SM5, Default, SM5 (DDC key hash: 9C1ECDCCFFAB9DE77E4F9922DF80103A179EB1A4), compiling. 
+[2022.10.30-20.53.08:206][112]LogSlate: Window 'Criar Novo Objeto de Informações de Camada de Paisagem' being destroyed
+[2022.10.30-20.53.20:428][196]LogSlate: Window 'Criar Novo Objeto de Informações de Camada de Paisagem' being destroyed
+[2022.10.30-20.53.36:924][471]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [Scalability]
+[2022.10.30-20.53.36:925][471]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [Scalability]
+[2022.10.30-20.53.36:925][471]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [Scalability]
+[2022.10.30-20.53.36:925][471]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@2] File [Scalability]
+[2022.10.30-20.53.36:925][471]LogConfig: Applying CVar settings from Section [ReflectionQuality@2] File [Scalability]
+[2022.10.30-20.53.36:925][471]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [Scalability]
+[2022.10.30-20.53.36:925][471]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [Scalability]
+[2022.10.30-20.53.36:925][471]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [Scalability]
+[2022.10.30-20.53.36:926][471]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [Scalability]
+[2022.10.30-20.53.36:926][471]LogConfig: Applying CVar settings from Section [ShadingQuality@2] File [Scalability]
+[2022.10.30-20.53.36:926][471]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:1]] deferred - dummy variable created
+[2022.10.30-20.53.37:178][471]LogMaterial: Display: Missing cached shadermap for HDRI_Epic_Courtyard_Daylight_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: ABE7575BD1D1DA98A07D918EB5FF78E12C8F79ED), compiling. 
+[2022.10.30-20.53.37:179][471]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\StarterContent\HDRI\HDRI_Epic_Courtyard_Daylight_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> UVW input required for cubemap sample
+
+[2022.10.30-20.53.37:207][471]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_20 in PCD3D_SM5, Default, SM5 (DDC key hash: EA3523A5DDC38460D13EFEA1EA569D5358E656C5), compiling. 
+[2022.10.30-20.53.37:209][471]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_20 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.53.37:211][471]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_19 in PCD3D_SM5, Default, SM5 (DDC key hash: 86AF8E1B1B4C7996EE57EC91F62E54CA7CF1FCB4), compiling. 
+[2022.10.30-20.53.37:212][471]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_19 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.53.37:215][471]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_22 in PCD3D_SM5, Default, SM5 (DDC key hash: 86AF8E1B1B4C7996EE57EC91F62E54CA7CF1FCB4), compiling. 
+[2022.10.30-20.53.37:216][471]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_22 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.53.37:218][471]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_23 in PCD3D_SM5, Default, SM5 (DDC key hash: EA3523A5DDC38460D13EFEA1EA569D5358E656C5), compiling. 
+[2022.10.30-20.53.37:219][471]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_23 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.53.37:525][476]LogContentStreaming: Texture pool size now 800 MB
+[2022.10.30-20.53.41:447][651]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [Scalability]
+[2022.10.30-20.53.41:448][651]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [Scalability]
+[2022.10.30-20.53.41:448][651]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [Scalability]
+[2022.10.30-20.53.41:448][651]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@0] File [Scalability]
+[2022.10.30-20.53.41:448][651]LogConfig: Applying CVar settings from Section [ReflectionQuality@0] File [Scalability]
+[2022.10.30-20.53.41:448][651]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [Scalability]
+[2022.10.30-20.53.41:448][651]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [Scalability]
+[2022.10.30-20.53.41:448][651]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [Scalability]
+[2022.10.30-20.53.41:448][651]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [Scalability]
+[2022.10.30-20.53.41:448][651]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [Scalability]
+[2022.10.30-20.53.41:448][651]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:1]] deferred - dummy variable created
+[2022.10.30-20.53.41:473][651]LogMaterial: Display: Missing cached shadermap for HDRI_Epic_Courtyard_Daylight_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: ABE7575BD1D1DA98A07D918EB5FF78E12C8F79ED), compiling. 
+[2022.10.30-20.53.41:474][651]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\StarterContent\HDRI\HDRI_Epic_Courtyard_Daylight_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> UVW input required for cubemap sample
+
+[2022.10.30-20.53.41:485][651]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_20 in PCD3D_SM5, Default, SM5 (DDC key hash: EA3523A5DDC38460D13EFEA1EA569D5358E656C5), compiling. 
+[2022.10.30-20.53.41:487][651]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_20 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.53.41:489][651]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_19 in PCD3D_SM5, Default, SM5 (DDC key hash: 86AF8E1B1B4C7996EE57EC91F62E54CA7CF1FCB4), compiling. 
+[2022.10.30-20.53.41:490][651]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_19 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.53.41:495][651]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_22 in PCD3D_SM5, Default, SM5 (DDC key hash: 86AF8E1B1B4C7996EE57EC91F62E54CA7CF1FCB4), compiling. 
+[2022.10.30-20.53.41:497][651]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_22 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.53.41:500][651]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_23 in PCD3D_SM5, Default, SM5 (DDC key hash: EA3523A5DDC38460D13EFEA1EA569D5358E656C5), compiling. 
+[2022.10.30-20.53.41:501][651]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_23 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.53.41:503][651]LogContentStreaming: Texture pool size now 400 MB
+[2022.10.30-20.53.52:939][929]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_198 in PCD3D_SM5, Default, SM5 (DDC key hash: DD2FB4FCD76B9166B374BC55AA1B4841204132EF), compiling. 
+[2022.10.30-20.53.52:945][929]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.53.53:019][929]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_200 in PCD3D_SM5, Default, SM5 (DDC key hash: DD2FB4FCD76B9166B374BC55AA1B4841204132EF), compiling. 
+[2022.10.30-20.53.53:024][929]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.53.53:044][929]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_200 in PCD3D_SM5, Default, SM5 (DDC key hash: DD2FB4FCD76B9166B374BC55AA1B4841204132EF), compiling. 
+[2022.10.30-20.53.53:048][929]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.53.53:060][929]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_198 in PCD3D_SM5, Default, SM5 (DDC key hash: DD2FB4FCD76B9166B374BC55AA1B4841204132EF), compiling. 
+[2022.10.30-20.53.53:062][929]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.53.53:079][929]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_200 in PCD3D_SM5, Default, SM5 (DDC key hash: DD2FB4FCD76B9166B374BC55AA1B4841204132EF), compiling. 
+[2022.10.30-20.53.53:081][929]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.53.53:098][929]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_200 in PCD3D_SM5, Default, SM5 (DDC key hash: DD2FB4FCD76B9166B374BC55AA1B4841204132EF), compiling. 
+[2022.10.30-20.53.53:100][929]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.53.53:124][929]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_200 in PCD3D_SM5, Default, SM5 (DDC key hash: DD2FB4FCD76B9166B374BC55AA1B4841204132EF), compiling. 
+[2022.10.30-20.53.53:126][929]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.54.15:642][316]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.10.30-20.54.15:721][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mapas/Principal" FILE="../../../../../../Users/User/Documents/Unreal Projects/Teste/Content/Mapas/Principal.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.30-20.54.15:738][316]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2022.10.30-20.54.15:743][316]LogTexture: Display: Building textures: /Game/Mapas/Principal.Principal:PersistentLevel.Landscape_0.Weightmap_0 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.10.30-20.54.15:775][316]LogTexture: Display: Building textures: /Game/Mapas/Principal.Principal:PersistentLevel.Landscape_0.Weightmap_9 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.10.30-20.54.15:782][316]LogTexture: Display: Building textures: /Game/Mapas/Principal.Principal:PersistentLevel.Landscape_0.Weightmap_11 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.10.30-20.54.15:802][316]LogTexture: Display: Building textures: /Game/Mapas/Principal.Principal:PersistentLevel.Landscape_0.Weightmap_12 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.10.30-20.54.15:816][316]LogTexture: Display: Building textures: /Game/Mapas/Principal.Principal:PersistentLevel.Landscape_0.Weightmap_16 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.10.30-20.54.15:915][316]LogTexture: Display: Building textures: /Game/Mapas/Principal.Principal:PersistentLevel.Landscape_0.Weightmap_17 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.10.30-20.54.15:993][316]LogSavePackage: Moving output files for package: /Game/Mapas/Principal
+[2022.10.30-20.54.15:995][316]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/Teste/Saved/PrincipalDFC7FB12420E8A6D030DF78DF18894F1.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/Teste/Content/Mapas/Principal.umap'
+[2022.10.30-20.54.16:021][316]LogFileHelpers: Nenhuma alteração a salvar!
+[2022.10.30-20.54.16:021][316]LogFileHelpers: Saving map 'Principal' took 0.301
+[2022.10.30-20.54.16:023][316]LogSavePackage: Moving output files for package: /Game/Mapas/Landscape/Recursos/Solo_LayerInfo
+[2022.10.30-20.54.16:023][316]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/Teste/Saved/Solo_LayerInfo0E9DA353421BE7471FB5E7898242C304.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/Teste/Content/Mapas/Landscape/Recursos/Solo_LayerInfo.uasset'
+[2022.10.30-20.54.16:026][316]LogSavePackage: Moving output files for package: /Game/Mapas/Landscape/Recursos/Grama_LayerInfo
+[2022.10.30-20.54.16:026][316]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/Teste/Saved/Grama_LayerInfo7DA044784A643E4AC85C14A60387F07D.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/Teste/Content/Mapas/Landscape/Recursos/Grama_LayerInfo.uasset'
+[2022.10.30-20.54.16:031][316]LogSavePackage: Moving output files for package: /Game/Mapas/Landscape/Texturas/Neve_LayerInfo
+[2022.10.30-20.54.16:031][316]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/Teste/Saved/Neve_LayerInfo0C51C5D942FF01D310C99FA567AD18E9.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/Teste/Content/Mapas/Landscape/Texturas/Neve_LayerInfo.uasset'
+[2022.10.30-20.54.16:051][316]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.30-20.54.16:051][316]LogContentValidation: Display: Validating LandscapeLayerInfoObject /Game/Mapas/Landscape/Recursos/Solo_LayerInfo.Solo_LayerInfo
+[2022.10.30-20.54.16:051][316]LogContentValidation: Display: Validating World /Game/Mapas/Principal.Principal
+[2022.10.30-20.54.16:051][316]LogContentValidation: Display: Validating LandscapeLayerInfoObject /Game/Mapas/Landscape/Recursos/Grama_LayerInfo.Grama_LayerInfo
+[2022.10.30-20.54.16:051][316]LogContentValidation: Display: Validating LandscapeLayerInfoObject /Game/Mapas/Landscape/Texturas/Neve_LayerInfo.Neve_LayerInfo
+[2022.10.30-20.54.33:652][583]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.30-20.54.33:680][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.30-20.54.33:681][583]PIE: New page: Sessão de PIE : Principal (30 de out de 2022 14:54:33)
+[2022.10.30-20.54.33:691][583]LogOnline: OSS: Created online subsystem instance for: NULL
+[2022.10.30-20.54.33:691][583]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.10.30-20.54.33:691][583]LogPlayLevel: Creating play world package: /Game/Mapas/UEDPIE_0_Principal
+[2022.10.30-20.54.33:725][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034661s)
+[2022.10.30-20.54.33:725][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mapas/Principal.Principal to /Game/Mapas/UEDPIE_0_Principal.Principal (0.034951s)
+[2022.10.30-20.54.33:725][583]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.30-20.54.33:726][583]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.30-20.54.33:726][583]LogAIModule: Creating AISystem for world Principal
+[2022.10.30-20.54.33:727][583]LogPlayLevel: PIE: World Init took: (0.001920s)
+[2022.10.30-20.54.33:759][583]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.10.30-20.54.33:761][583]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.10.30-20.54.33:761][583]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.30-20.54.33:761][583]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.30-20.54.33:761][583]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.30-20.54.33:761][583]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.30-20.54.33:761][583]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.30-20.54.33:761][583]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.30-20.54.33:761][583]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.30-20.54.33:761][583]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.30-20.54.33:762][583]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.30-20.54.33:762][583]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.30-20.54.33:762][583]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.30-20.54.33:765][583]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.30-20.54.33:802][583]LogAudioMixer: Display: Using Audio Hardware Device LG TV (Áudio Intel(R) para telas)
+[2022.10.30-20.54.33:803][583]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.30-20.54.33:803][583]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.30-20.54.33:803][583]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.30-20.54.33:805][583]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2022.10.30-20.54.33:806][583]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2022.10.30-20.54.33:808][583]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2022.10.30-20.54.33:808][583]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2022.10.30-20.54.33:808][583]LogInit: FAudioDevice initialized.
+[2022.10.30-20.54.33:808][583]LogAudio: Display: Audio Device (ID: 2) registered with world 'Principal'.
+[2022.10.30-20.54.33:829][583]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.10.30-20.54.33:833][583]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_Principal.Principal up for play (max tick rate 0) at 2022.10.30-17.54.33
+[2022.10.30-20.54.33:834][583]LogWorld: Bringing up level for play took: 0.004858
+[2022.10.30-20.54.33:837][583]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2022.10.30-20.54.33:862][583]PIE: Servidor conectado
+[2022.10.30-20.54.33:864][583]PIE: Play in editor total start time 0,185 seconds.
+[2022.10.30-20.54.43:493][756]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.30-20.54.43:493][756]LogWorld: BeginTearingDown for /Game/Mapas/UEDPIE_0_Principal
+[2022.10.30-20.54.43:495][756]LogWorld: UWorld::CleanupWorld for Principal, bSessionEnded=true, bCleanupResources=true
+[2022.10.30-20.54.43:498][756]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.30-20.54.43:591][756]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.30-20.54.43:597][756]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.30-20.54.43:647][756]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.30-20.54.43:647][756]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.10.30-20.54.43:651][756]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.10.30-20.54.43:669][756]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.10.30-20.54.43:752][757]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2022.10.30-20.54.55:623][917]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_200 in PCD3D_SM5, Default, SM5 (DDC key hash: DD2FB4FCD76B9166B374BC55AA1B4841204132EF), compiling. 
+[2022.10.30-20.54.55:628][917]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.55.01:384][996]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_209 in PCD3D_SM5, Default, SM5 (DDC key hash: D7DB9ED20CB0FCCE605DAC528FA3295B4F9A42A5), compiling. 
+[2022.10.30-20.55.01:387][996]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.55.01:413][996]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_211 in PCD3D_SM5, Default, SM5 (DDC key hash: D7DB9ED20CB0FCCE605DAC528FA3295B4F9A42A5), compiling. 
+[2022.10.30-20.55.01:421][996]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.55.01:436][996]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_211 in PCD3D_SM5, Default, SM5 (DDC key hash: D7DB9ED20CB0FCCE605DAC528FA3295B4F9A42A5), compiling. 
+[2022.10.30-20.55.01:438][996]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.55.01:451][996]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_209 in PCD3D_SM5, Default, SM5 (DDC key hash: D7DB9ED20CB0FCCE605DAC528FA3295B4F9A42A5), compiling. 
+[2022.10.30-20.55.01:453][996]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.55.01:468][996]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_212 in PCD3D_SM5, Default, SM5 (DDC key hash: 9B7B342911FB14E8F7EA9049DCE4AFE46A479047), compiling. 
+[2022.10.30-20.55.01:470][996]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.55.01:486][996]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_214 in PCD3D_SM5, Default, SM5 (DDC key hash: 9B7B342911FB14E8F7EA9049DCE4AFE46A479047), compiling. 
+[2022.10.30-20.55.01:489][996]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.55.01:502][996]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_214 in PCD3D_SM5, Default, SM5 (DDC key hash: 9B7B342911FB14E8F7EA9049DCE4AFE46A479047), compiling. 
+[2022.10.30-20.55.01:505][996]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.55.01:516][996]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_212 in PCD3D_SM5, Default, SM5 (DDC key hash: 9B7B342911FB14E8F7EA9049DCE4AFE46A479047), compiling. 
+[2022.10.30-20.55.01:519][996]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.55.03:953][ 32]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.30-20.55.03:984][ 32]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.30-20.55.03:985][ 32]PIE: New page: Sessão de PIE : Principal (30 de out de 2022 14:55:03)
+[2022.10.30-20.55.03:985][ 32]LogPlayLevel: Creating play world package: /Game/Mapas/UEDPIE_0_Principal
+[2022.10.30-20.55.04:057][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071512s)
+[2022.10.30-20.55.04:057][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mapas/Principal.Principal to /Game/Mapas/UEDPIE_0_Principal.Principal (0.071835s)
+[2022.10.30-20.55.04:057][ 32]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.30-20.55.04:058][ 32]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.30-20.55.04:059][ 32]LogAIModule: Creating AISystem for world Principal
+[2022.10.30-20.55.04:060][ 32]LogPlayLevel: PIE: World Init took: (0.003023s)
+[2022.10.30-20.55.04:107][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2022.10.30-20.55.04:109][ 32]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.10.30-20.55.04:109][ 32]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.30-20.55.04:109][ 32]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.30-20.55.04:109][ 32]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.30-20.55.04:109][ 32]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.30-20.55.04:110][ 32]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.30-20.55.04:110][ 32]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.30-20.55.04:110][ 32]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.30-20.55.04:110][ 32]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.30-20.55.04:111][ 32]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.30-20.55.04:111][ 32]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.30-20.55.04:111][ 32]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.30-20.55.04:117][ 32]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.30-20.55.04:145][ 32]LogAudioMixer: Display: Using Audio Hardware Device LG TV (Áudio Intel(R) para telas)
+[2022.10.30-20.55.04:146][ 32]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.30-20.55.04:146][ 32]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.30-20.55.04:146][ 32]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.30-20.55.04:149][ 32]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2022.10.30-20.55.04:149][ 32]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2022.10.30-20.55.04:152][ 32]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2022.10.30-20.55.04:152][ 32]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2022.10.30-20.55.04:152][ 32]LogInit: FAudioDevice initialized.
+[2022.10.30-20.55.04:153][ 32]LogAudio: Display: Audio Device (ID: 3) registered with world 'Principal'.
+[2022.10.30-20.55.04:177][ 32]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.10.30-20.55.04:183][ 32]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_Principal.Principal up for play (max tick rate 0) at 2022.10.30-17.55.04
+[2022.10.30-20.55.04:184][ 32]LogWorld: Bringing up level for play took: 0.006470
+[2022.10.30-20.55.04:187][ 32]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2022.10.30-20.55.04:192][ 32]PIE: Servidor conectado
+[2022.10.30-20.55.04:194][ 32]PIE: Play in editor total start time 0,209 seconds.
+[2022.10.30-20.55.13:463][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.30-20.55.13:463][198]LogWorld: BeginTearingDown for /Game/Mapas/UEDPIE_0_Principal
+[2022.10.30-20.55.13:465][198]LogWorld: UWorld::CleanupWorld for Principal, bSessionEnded=true, bCleanupResources=true
+[2022.10.30-20.55.13:469][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.30-20.55.13:548][198]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.30-20.55.13:559][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.30-20.55.13:604][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.30-20.55.13:608][198]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.10.30-20.55.13:611][198]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.10.30-20.55.13:625][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.10.30-20.55.13:724][199]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2022.10.30-20.55.18:082][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mapas/Principal" FILE="../../../../../../Users/User/Documents/Unreal Projects/Teste/Content/Mapas/Principal.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.30-20.55.18:112][256]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2022.10.30-20.55.18:119][256]LogTexture: Display: Building textures: /Game/Mapas/Principal.Principal:PersistentLevel.Landscape_0.Weightmap_9 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.10.30-20.55.18:128][256]LogTexture: Display: Building textures: /Game/Mapas/Principal.Principal:PersistentLevel.Landscape_0.Weightmap_16 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.10.30-20.55.18:280][256]LogTexture: Display: Building textures: /Game/Mapas/Principal.Principal:PersistentLevel.Landscape_0.Weightmap_17 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.10.30-20.55.18:339][256]LogSavePackage: Moving output files for package: /Game/Mapas/Principal
+[2022.10.30-20.55.18:341][256]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/Teste/Saved/PrincipalA46477C04CD3DD8C47111ABE9CCC0141.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/Teste/Content/Mapas/Principal.umap'
+[2022.10.30-20.55.18:362][256]LogFileHelpers: Nenhuma alteração a salvar!
+[2022.10.30-20.55.18:376][256]AssetCheck: New page: Asset Save: Principal
+[2022.10.30-20.55.18:376][256]LogContentValidation: Display: Validating World /Game/Mapas/Principal.Principal
+[2022.10.30-20.56.41:402][446]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.10.30-20.56.57:202][628]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_215 in PCD3D_SM5, Default, SM5 (DDC key hash: ECA89D50D9F0745DAE41798259BF442F2494044E), compiling. 
+[2022.10.30-20.56.57:225][628]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_217 in PCD3D_SM5, Default, SM5 (DDC key hash: F84A1A0361B7E22DA6F0A1183D49F0C3CCD65005), compiling. 
+[2022.10.30-20.56.57:350][628]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_261 in PCD3D_SM5, Default, SM5 (DDC key hash: 84EADEA731B68EECCFA8901E73B641BCA964721A), compiling. 
+[2022.10.30-20.56.57:367][628]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_263 in PCD3D_SM5, Default, SM5 (DDC key hash: AA197CF2E5D4E00B3787E8B17B07B0CAC198A26B), compiling. 
+[2022.10.30-20.56.57:501][628]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_24 in PCD3D_SM5, Default, SM5 (DDC key hash: 0DC20CF2174A2D00FCA4D9EFDF3FA586D6D80CAB), compiling. 
+[2022.10.30-20.56.57:513][628]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_25 in PCD3D_SM5, Default, SM5 (DDC key hash: 1A5996CB9F94C60293FD286B9255EE2B2F85AB08), compiling. 
+[2022.10.30-20.56.57:524][628]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_26 in PCD3D_SM5, Default, SM5 (DDC key hash: 6028EAAD4126387D663726F250EF3F30832BA748), compiling. 
+[2022.10.30-20.57.17:871][866]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_284 in PCD3D_SM5, Default, SM5 (DDC key hash: 9C1ECDCCFFAB9DE77E4F9922DF80103A179EB1A4), compiling. 
+[2022.10.30-20.57.18:091][866]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_330 in PCD3D_SM5, Default, SM5 (DDC key hash: D7DB9ED20CB0FCCE605DAC528FA3295B4F9A42A5), compiling. 
+[2022.10.30-20.57.18:094][866]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.57.18:113][866]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_332 in PCD3D_SM5, Default, SM5 (DDC key hash: D7DB9ED20CB0FCCE605DAC528FA3295B4F9A42A5), compiling. 
+[2022.10.30-20.57.18:116][866]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.57.18:202][866]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_330 in PCD3D_SM5, Default, SM5 (DDC key hash: D7DB9ED20CB0FCCE605DAC528FA3295B4F9A42A5), compiling. 
+[2022.10.30-20.57.18:205][866]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.57.18:214][866]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_332 in PCD3D_SM5, Default, SM5 (DDC key hash: D7DB9ED20CB0FCCE605DAC528FA3295B4F9A42A5), compiling. 
+[2022.10.30-20.57.18:216][866]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.57.18:267][866]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_28 in PCD3D_SM5, Default, SM5 (DDC key hash: 86AF8E1B1B4C7996EE57EC91F62E54CA7CF1FCB4), compiling. 
+[2022.10.30-20.57.18:269][866]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_28 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.57.18:274][866]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_28 in PCD3D_SM5, Default, SM5 (DDC key hash: 86AF8E1B1B4C7996EE57EC91F62E54CA7CF1FCB4), compiling. 
+[2022.10.30-20.57.18:276][866]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_28 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.57.18:283][866]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_29 in PCD3D_SM5, Default, SM5 (DDC key hash: EA3523A5DDC38460D13EFEA1EA569D5358E656C5), compiling. 
+[2022.10.30-20.57.18:285][866]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_29 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.57.18:290][866]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_29 in PCD3D_SM5, Default, SM5 (DDC key hash: EA3523A5DDC38460D13EFEA1EA569D5358E656C5), compiling. 
+[2022.10.30-20.57.18:292][866]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_29 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.57.18:572][866]LogShaderCompilers: Display: ================================================
+[2022.10.30-20.57.18:572][866]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.30-20.57.18:572][866]LogShaderCompilers: Display: Total job queries 621, among them cache hits 437 (70.37%)
+[2022.10.30-20.57.18:572][866]LogShaderCompilers: Display: Tracking 143 distinct input hashes that result in 66 distinct outputs (46.15%)
+[2022.10.30-20.57.18:572][866]LogShaderCompilers: Display: RAM used: 0.17 MB (0.00 GB) of 563.20 MB (0.55 GB) budget. Usage: 0.03%
+[2022.10.30-20.57.18:572][866]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.30-20.57.18:572][866]LogShaderCompilers: Display: Shaders Compiled: 72
+[2022.10.30-20.57.18:572][866]LogShaderCompilers: Display: Jobs assigned 146, completed 143 (97.95%)
+[2022.10.30-20.57.18:572][866]LogShaderCompilers: Display: Average time worker was idle: 41.82 s
+[2022.10.30-20.57.18:572][866]LogShaderCompilers: Display: Time job spent in pending queue: average 4.13 s, longest 40.76 s
+[2022.10.30-20.57.18:572][866]LogShaderCompilers: Display: Job execution time: average 7.37 s, max 33.91 s
+[2022.10.30-20.57.18:572][866]LogShaderCompilers: Display: Job life time (pending + execution): average 11.58 s, max 46.89
+[2022.10.30-20.57.18:572][866]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 245.08 s
+[2022.10.30-20.57.18:572][866]LogShaderCompilers: Display: Jobs were issued in 133 batches (only local compilation was used), average 1.10 jobs/batch
+[2022.10.30-20.57.18:572][866]LogShaderCompilers: Display: Average processing rate: 0.58 jobs/sec
+[2022.10.30-20.57.18:573][866]LogShaderCompilers: Display: Effective parallelization: 2.53 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2022.10.30-20.57.18:573][866]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.30-20.57.18:573][866]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   18 times, average 7.91 sec, max 33.47 sec, min 0.62 sec)
+[2022.10.30-20.57.18:573][866]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   13 times, average 7.75 sec, max 32.71 sec, min 0.62 sec)
+[2022.10.30-20.57.18:573][866]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   18 times, average 7.21 sec, max 33.38 sec, min 1.11 sec)
+[2022.10.30-20.57.18:573][866]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    9 times, average 4.03 sec, max 6.78 sec, min 1.28 sec)
+[2022.10.30-20.57.18:573][866]LogShaderCompilers: Display:                                      FLandscapeGrassWeightVS (compiled    3 times, average 3.91 sec, max 6.07 sec, min 2.14 sec)
+[2022.10.30-20.57.18:573][866]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.30-20.57.18:573][866]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 23.00% of total time (compiled   18 times, average 7.91 sec, max 33.47 sec, min 0.62 sec)
+[2022.10.30-20.57.18:573][866]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 20.96% of total time (compiled   18 times, average 7.21 sec, max 33.38 sec, min 1.11 sec)
+[2022.10.30-20.57.18:573][866]LogShaderCompilers: Display:                                                 FLumenCardVS - 16.28% of total time (compiled   13 times, average 7.75 sec, max 32.71 sec, min 0.62 sec)
+[2022.10.30-20.57.18:573][866]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 5.85% of total time (compiled    9 times, average 4.03 sec, max 6.78 sec, min 1.28 sec)
+[2022.10.30-20.57.18:573][866]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 5.25% of total time (compiled    9 times, average 3.61 sec, max 6.43 sec, min 0.65 sec)
+[2022.10.30-20.57.18:573][866]LogShaderCompilers: Display: ================================================
+[2022.10.30-20.58.22:823][172]LogTurnkeySupport: Display: Adding device menu item for DESKTOP-40R5ENR
+[2022.10.30-20.58.42:419][386]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_352 in PCD3D_SM5, Default, SM5 (DDC key hash: DD2FB4FCD76B9166B374BC55AA1B4841204132EF), compiling. 
+[2022.10.30-20.58.42:422][386]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.58.42:442][386]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_354 in PCD3D_SM5, Default, SM5 (DDC key hash: DD2FB4FCD76B9166B374BC55AA1B4841204132EF), compiling. 
+[2022.10.30-20.58.42:444][386]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.58.42:457][386]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_354 in PCD3D_SM5, Default, SM5 (DDC key hash: DD2FB4FCD76B9166B374BC55AA1B4841204132EF), compiling. 
+[2022.10.30-20.58.42:459][386]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.58.42:471][386]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_352 in PCD3D_SM5, Default, SM5 (DDC key hash: DD2FB4FCD76B9166B374BC55AA1B4841204132EF), compiling. 
+[2022.10.30-20.58.42:473][386]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.59.23:760][883]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [Scalability]
+[2022.10.30-20.59.23:760][883]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [Scalability]
+[2022.10.30-20.59.23:761][883]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [Scalability]
+[2022.10.30-20.59.23:762][883]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@2] File [Scalability]
+[2022.10.30-20.59.23:763][883]LogConfig: Applying CVar settings from Section [ReflectionQuality@2] File [Scalability]
+[2022.10.30-20.59.23:763][883]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [Scalability]
+[2022.10.30-20.59.23:764][883]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [Scalability]
+[2022.10.30-20.59.23:764][883]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [Scalability]
+[2022.10.30-20.59.23:765][883]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [Scalability]
+[2022.10.30-20.59.23:765][883]LogConfig: Applying CVar settings from Section [ShadingQuality@2] File [Scalability]
+[2022.10.30-20.59.23:766][883]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:1]] deferred - dummy variable created
+[2022.10.30-20.59.23:937][883]LogMaterial: Display: Missing cached shadermap for HDRI_Epic_Courtyard_Daylight_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: ABE7575BD1D1DA98A07D918EB5FF78E12C8F79ED), compiling. 
+[2022.10.30-20.59.23:941][883]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\StarterContent\HDRI\HDRI_Epic_Courtyard_Daylight_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> UVW input required for cubemap sample
+
+[2022.10.30-20.59.23:963][883]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_22 in PCD3D_SM5, Default, SM5 (DDC key hash: 86AF8E1B1B4C7996EE57EC91F62E54CA7CF1FCB4), compiling. 
+[2022.10.30-20.59.23:966][883]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_22 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.59.23:974][883]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_23 in PCD3D_SM5, Default, SM5 (DDC key hash: EA3523A5DDC38460D13EFEA1EA569D5358E656C5), compiling. 
+[2022.10.30-20.59.23:978][883]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_23 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.59.23:992][883]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_330 in PCD3D_SM5, Default, SM5 (DDC key hash: D7DB9ED20CB0FCCE605DAC528FA3295B4F9A42A5), compiling. 
+[2022.10.30-20.59.23:994][883]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.59.24:009][883]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_332 in PCD3D_SM5, Default, SM5 (DDC key hash: D7DB9ED20CB0FCCE605DAC528FA3295B4F9A42A5), compiling. 
+[2022.10.30-20.59.24:012][883]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.59.24:017][883]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_28 in PCD3D_SM5, Default, SM5 (DDC key hash: 86AF8E1B1B4C7996EE57EC91F62E54CA7CF1FCB4), compiling. 
+[2022.10.30-20.59.24:021][883]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_28 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.59.24:026][883]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_29 in PCD3D_SM5, Default, SM5 (DDC key hash: EA3523A5DDC38460D13EFEA1EA569D5358E656C5), compiling. 
+[2022.10.30-20.59.24:028][883]LogMaterial: Warning: [AssetLog] /Engine/Transient.LandscapeMaterialInstanceConstant_29 (no disk path found): Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.59.24:041][883]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_352 in PCD3D_SM5, Default, SM5 (DDC key hash: DD2FB4FCD76B9166B374BC55AA1B4841204132EF), compiling. 
+[2022.10.30-20.59.24:044][883]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.59.24:057][883]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_354 in PCD3D_SM5, Default, SM5 (DDC key hash: DD2FB4FCD76B9166B374BC55AA1B4841204132EF), compiling. 
+[2022.10.30-20.59.24:060][883]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-20.59.25:252][887]LogContentStreaming: Texture pool size now 800 MB
+[2022.10.30-20.59.25:691][891]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.30-20.59.25:728][891]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.30-20.59.25:728][891]PIE: New page: Sessão de PIE : Principal (30 de out de 2022 14:59:25)
+[2022.10.30-20.59.25:728][891]LogPlayLevel: Creating play world package: /Game/Mapas/UEDPIE_0_Principal
+[2022.10.30-20.59.25:774][891]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046004s)
+[2022.10.30-20.59.25:774][891]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mapas/Principal.Principal to /Game/Mapas/UEDPIE_0_Principal.Principal (0.046197s)
+[2022.10.30-20.59.25:774][891]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.30-20.59.25:775][891]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.30-20.59.25:776][891]LogAIModule: Creating AISystem for world Principal
+[2022.10.30-20.59.25:776][891]LogPlayLevel: PIE: World Init took: (0.001972s)
+[2022.10.30-20.59.25:800][891]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.10.30-20.59.25:802][891]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.10.30-20.59.25:802][891]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.30-20.59.25:802][891]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.30-20.59.25:802][891]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.30-20.59.25:802][891]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.30-20.59.25:802][891]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.30-20.59.25:802][891]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.30-20.59.25:802][891]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.30-20.59.25:802][891]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.30-20.59.25:804][891]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.30-20.59.25:804][891]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.30-20.59.25:804][891]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.30-20.59.25:808][891]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.30-20.59.25:826][891]LogAudioMixer: Display: Using Audio Hardware Device LG TV (Áudio Intel(R) para telas)
+[2022.10.30-20.59.25:827][891]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.30-20.59.25:827][891]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.30-20.59.25:827][891]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.30-20.59.25:830][891]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2022.10.30-20.59.25:830][891]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2022.10.30-20.59.25:833][891]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2022.10.30-20.59.25:833][891]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2022.10.30-20.59.25:833][891]LogInit: FAudioDevice initialized.
+[2022.10.30-20.59.25:833][891]LogAudio: Display: Audio Device (ID: 4) registered with world 'Principal'.
+[2022.10.30-20.59.25:852][891]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.10.30-20.59.25:859][891]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_Principal.Principal up for play (max tick rate 0) at 2022.10.30-17.59.25
+[2022.10.30-20.59.25:859][891]LogWorld: Bringing up level for play took: 0.006839
+[2022.10.30-20.59.25:862][891]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2022.10.30-20.59.25:865][891]PIE: Servidor conectado
+[2022.10.30-20.59.25:866][891]PIE: Play in editor total start time 0,138 seconds.
+[2022.10.30-20.59.35:753][996]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.30-20.59.35:753][996]LogWorld: BeginTearingDown for /Game/Mapas/UEDPIE_0_Principal
+[2022.10.30-20.59.35:754][996]LogWorld: UWorld::CleanupWorld for Principal, bSessionEnded=true, bCleanupResources=true
+[2022.10.30-20.59.35:758][996]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.30-20.59.35:923][996]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.30-20.59.35:933][996]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.30-20.59.35:978][996]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.30-20.59.35:981][996]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.10.30-20.59.35:991][996]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.10.30-20.59.36:009][996]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.30-20.59.36:024][996]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2022.10.30-20.59.36:155][997]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2022.10.30-20.59.42:410][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mapas/Principal" FILE="../../../../../../Users/User/Documents/Unreal Projects/Teste/Content/Mapas/Principal.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.30-20.59.42:449][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2022.10.30-20.59.42:463][ 55]LogTexture: Display: Building textures: /Game/Mapas/Principal.Principal:PersistentLevel.Landscape_0.Weightmap_17 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.10.30-20.59.42:599][ 55]LogTexture: Display: Building textures: /Game/Mapas/Principal.Principal:PersistentLevel.Landscape_0.Weightmap_18 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.10.30-20.59.42:697][ 55]LogSavePackage: Moving output files for package: /Game/Mapas/Principal
+[2022.10.30-20.59.42:698][ 55]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/Teste/Saved/Principal0F3F8236498EC06C34E271985144286E.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/Teste/Content/Mapas/Principal.umap'
+[2022.10.30-20.59.42:720][ 55]LogFileHelpers: Nenhuma alteração a salvar!
+[2022.10.30-20.59.42:740][ 55]AssetCheck: New page: Asset Save: Principal
+[2022.10.30-20.59.42:740][ 55]LogContentValidation: Display: Validating World /Game/Mapas/Principal.Principal
+[2022.10.30-20.59.53:457][162]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.10.30-20.59.53:457][162]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.30-21.00.38:784][600]LogStaticMesh: StaticMesh /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame should be resaved to improve async compilation performance.
+[2022.10.30-21.00.38:875][600]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame
+[2022.10.30-21.00.38:887][600]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame
+[2022.10.30-21.00.38:888][600]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame as actor: StaticMeshActor /Game/Mapas/Principal.Principal:PersistentLevel.StaticMeshActor_0
+[2022.10.30-21.00.38:925][600]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame
+[2022.10.30-21.00.38:925][600]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame
+[2022.10.30-21.00.38:928][600]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame as actor: StaticMeshActor /Game/Mapas/Principal.Principal:PersistentLevel.StaticMeshActor_2
+[2022.10.30-21.00.44:938][654]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_354 in PCD3D_SM5, Default, SM5 (DDC key hash: DD2FB4FCD76B9166B374BC55AA1B4841204132EF), compiling. 
+[2022.10.30-21.00.44:942][654]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-21.00.44:978][654]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_354 in PCD3D_SM5, Default, SM5 (DDC key hash: DD2FB4FCD76B9166B374BC55AA1B4841204132EF), compiling. 
+[2022.10.30-21.00.44:995][654]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-21.00.45:037][654]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_354 in PCD3D_SM5, Default, SM5 (DDC key hash: DD2FB4FCD76B9166B374BC55AA1B4841204132EF), compiling. 
+[2022.10.30-21.00.45:040][654]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-21.00.45:061][654]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_354 in PCD3D_SM5, Default, SM5 (DDC key hash: DD2FB4FCD76B9166B374BC55AA1B4841204132EF), compiling. 
+[2022.10.30-21.00.45:063][654]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-21.00.49:102][693]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_332 in PCD3D_SM5, Default, SM5 (DDC key hash: D7DB9ED20CB0FCCE605DAC528FA3295B4F9A42A5), compiling. 
+[2022.10.30-21.00.49:110][693]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-21.00.49:158][693]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_332 in PCD3D_SM5, Default, SM5 (DDC key hash: D7DB9ED20CB0FCCE605DAC528FA3295B4F9A42A5), compiling. 
+[2022.10.30-21.00.49:162][693]LogMaterial: Warning: [AssetLog] C:\Users\User\Documents\Unreal Projects\Teste\Content\Mapas\Principal.umap: Failed to compile Material Instance with Base Relevopaisagem for platform PCD3D_SM5, Default Material will be used in game.
+	(Node LandscapeLayerBlend) Invalid input types: float3, float4
+
+[2022.10.30-21.00.54:501][749]LogViewport: Scene viewport resized to 1526x585, mode Windowed.
+[2022.10.30-21.00.56:525][762]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame
+[2022.10.30-21.00.56:525][762]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame
+[2022.10.30-21.00.56:525][762]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame as actor: StaticMeshActor /Game/Mapas/Principal.Principal:PersistentLevel.StaticMeshActor_3
+[2022.10.30-21.00.57:916][774]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame
+[2022.10.30-21.00.57:916][774]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame
+[2022.10.30-21.00.57:918][774]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame as actor: StaticMeshActor /Game/Mapas/Principal.Principal:PersistentLevel.StaticMeshActor_4
+[2022.10.30-21.01.05:713][840]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.30-21.01.05:736][840]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.30-21.01.05:737][840]PIE: New page: Sessão de PIE : Principal (30 de out de 2022 15:01:05)
+[2022.10.30-21.01.05:737][840]LogPlayLevel: Creating play world package: /Game/Mapas/UEDPIE_0_Principal
+[2022.10.30-21.01.05:793][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056245s)
+[2022.10.30-21.01.05:793][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mapas/Principal.Principal to /Game/Mapas/UEDPIE_0_Principal.Principal (0.056478s)
+[2022.10.30-21.01.05:793][840]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.30-21.01.05:793][840]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.30-21.01.05:794][840]LogAIModule: Creating AISystem for world Principal
+[2022.10.30-21.01.05:795][840]LogPlayLevel: PIE: World Init took: (0.001983s)
+[2022.10.30-21.01.05:841][840]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2022.10.30-21.01.05:846][840]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.10.30-21.01.05:846][840]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.30-21.01.05:846][840]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.30-21.01.05:846][840]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.30-21.01.05:846][840]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.30-21.01.05:846][840]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.30-21.01.05:846][840]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.30-21.01.05:846][840]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.30-21.01.05:846][840]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.30-21.01.05:847][840]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.30-21.01.05:847][840]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.30-21.01.05:847][840]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.30-21.01.05:851][840]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.30-21.01.05:885][840]LogAudioMixer: Display: Using Audio Hardware Device LG TV (Áudio Intel(R) para telas)
+[2022.10.30-21.01.05:886][840]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.30-21.01.05:886][840]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.30-21.01.05:886][840]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.30-21.01.05:891][840]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2022.10.30-21.01.05:891][840]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2022.10.30-21.01.05:895][840]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2022.10.30-21.01.05:895][840]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2022.10.30-21.01.05:895][840]LogInit: FAudioDevice initialized.
+[2022.10.30-21.01.05:895][840]LogAudio: Display: Audio Device (ID: 5) registered with world 'Principal'.
+[2022.10.30-21.01.05:912][840]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.10.30-21.01.05:917][840]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_Principal.Principal up for play (max tick rate 0) at 2022.10.30-18.01.05
+[2022.10.30-21.01.05:917][840]LogWorld: Bringing up level for play took: 0.004934
+[2022.10.30-21.01.05:921][840]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2022.10.30-21.01.05:926][840]PIE: Servidor conectado
+[2022.10.30-21.01.05:927][840]PIE: Play in editor total start time 0,19 seconds.
+[2022.10.30-21.01.08:974][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.30-21.01.08:975][871]LogWorld: BeginTearingDown for /Game/Mapas/UEDPIE_0_Principal
+[2022.10.30-21.01.08:977][871]LogWorld: UWorld::CleanupWorld for Principal, bSessionEnded=true, bCleanupResources=true
+[2022.10.30-21.01.08:982][871]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.30-21.01.09:092][871]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.30-21.01.09:103][871]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.30-21.01.09:152][871]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.30-21.01.09:152][871]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.10.30-21.01.09:157][871]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.10.30-21.01.09:171][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.30-21.01.09:180][871]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.10.30-21.01.09:279][872]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2022.10.30-21.01.16:516][929]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2022.10.30-21.01.16:516][929]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2022.10.30-21.01.16:518][929]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair as actor: StaticMeshActor /Game/Mapas/Principal.Principal:PersistentLevel.StaticMeshActor_5
+[2022.10.30-21.01.17:630][941]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2022.10.30-21.01.17:630][941]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2022.10.30-21.01.17:631][941]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair as actor: StaticMeshActor /Game/Mapas/Principal.Principal:PersistentLevel.StaticMeshActor_6
+[2022.10.30-21.02.32:244][122]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Steam_Lit.P_Steam_Lit
+[2022.10.30-21.02.32:244][122]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Steam_Lit.P_Steam_Lit
+[2022.10.30-21.02.32:269][122]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Steam_Lit.P_Steam_Lit as actor: Emitter /Game/Mapas/Principal.Principal:PersistentLevel.Emitter_0
+[2022.10.30-21.02.32:301][122]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Steam_Lit.P_Steam_Lit as actor: Emitter /Game/Mapas/Principal.Principal:PersistentLevel.Emitter_0
+[2022.10.30-21.02.32:356][123]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Steam_Lit.P_Steam_Lit
+[2022.10.30-21.02.32:356][123]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Steam_Lit.P_Steam_Lit
+[2022.10.30-21.02.32:360][123]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Steam_Lit.P_Steam_Lit as actor: Emitter /Game/Mapas/Principal.Principal:PersistentLevel.Emitter_1
+[2022.10.30-21.02.32:364][123]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Steam_Lit.P_Steam_Lit as actor: Emitter /Game/Mapas/Principal.Principal:PersistentLevel.Emitter_1
+[2022.10.30-21.02.42:535][210]LogViewport: Scene viewport resized to 1014x376, mode Windowed.
+[2022.10.30-21.02.44:784][235]LogViewport: Scene viewport resized to 1014x581, mode Windowed.
+[2022.10.30-21.02.46:013][249]LogViewport: Scene viewport resized to 1526x585, mode Windowed.
+[2022.10.30-21.02.48:102][263]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Smoke.P_Smoke
+[2022.10.30-21.02.48:102][263]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Smoke.P_Smoke
+[2022.10.30-21.02.48:102][263]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Smoke.P_Smoke as actor: Emitter /Game/Mapas/Principal.Principal:PersistentLevel.Emitter_2
+[2022.10.30-21.02.48:103][263]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Smoke.P_Smoke as actor: Emitter /Game/Mapas/Principal.Principal:PersistentLevel.Emitter_2
+[2022.10.30-21.02.48:713][272]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Smoke.P_Smoke
+[2022.10.30-21.02.48:713][272]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Smoke.P_Smoke
+[2022.10.30-21.02.48:715][272]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Smoke.P_Smoke as actor: Emitter /Game/Mapas/Principal.Principal:PersistentLevel.Emitter_3
+[2022.10.30-21.02.48:716][272]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Smoke.P_Smoke as actor: Emitter /Game/Mapas/Principal.Principal:PersistentLevel.Emitter_3
+[2022.10.30-21.02.57:649][352]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Ambient_Dust.P_Ambient_Dust
+[2022.10.30-21.02.57:649][352]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Ambient_Dust.P_Ambient_Dust
+[2022.10.30-21.02.57:651][352]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Ambient_Dust.P_Ambient_Dust as actor: Emitter /Game/Mapas/Principal.Principal:PersistentLevel.Emitter_4
+[2022.10.30-21.02.57:654][352]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Ambient_Dust.P_Ambient_Dust as actor: Emitter /Game/Mapas/Principal.Principal:PersistentLevel.Emitter_4
+[2022.10.30-21.02.57:830][353]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2022.10.30-21.02.58:535][362]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Ambient_Dust.P_Ambient_Dust
+[2022.10.30-21.02.58:535][362]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Ambient_Dust.P_Ambient_Dust
+[2022.10.30-21.02.58:537][362]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Ambient_Dust.P_Ambient_Dust as actor: Emitter /Game/Mapas/Principal.Principal:PersistentLevel.Emitter_5
+[2022.10.30-21.02.58:538][362]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Ambient_Dust.P_Ambient_Dust as actor: Emitter /Game/Mapas/Principal.Principal:PersistentLevel.Emitter_5
+[2022.10.30-21.03.04:725][415]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.30-21.03.04:766][415]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.30-21.03.04:767][415]PIE: New page: Sessão de PIE : Principal (30 de out de 2022 15:03:04)
+[2022.10.30-21.03.04:768][415]LogPlayLevel: Creating play world package: /Game/Mapas/UEDPIE_0_Principal
+[2022.10.30-21.03.04:884][415]LogPlayLevel: PIE: StaticDuplicateObject took: (0.115637s)
+[2022.10.30-21.03.04:884][415]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mapas/Principal.Principal to /Game/Mapas/UEDPIE_0_Principal.Principal (0.116352s)
+[2022.10.30-21.03.04:884][415]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.30-21.03.04:884][415]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.30-21.03.04:886][415]LogAIModule: Creating AISystem for world Principal
+[2022.10.30-21.03.04:887][415]LogPlayLevel: PIE: World Init took: (0.003404s)
+[2022.10.30-21.03.04:968][415]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2022.10.30-21.03.04:975][415]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.10.30-21.03.04:975][415]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.30-21.03.04:975][415]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.30-21.03.04:976][415]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.30-21.03.04:976][415]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.30-21.03.04:976][415]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.30-21.03.04:976][415]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.30-21.03.04:976][415]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.30-21.03.04:977][415]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.30-21.03.04:980][415]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.30-21.03.04:980][415]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.30-21.03.04:981][415]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.30-21.03.04:987][415]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.30-21.03.05:029][415]LogAudioMixer: Display: Using Audio Hardware Device LG TV (Áudio Intel(R) para telas)
+[2022.10.30-21.03.05:030][415]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.30-21.03.05:030][415]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.30-21.03.05:031][415]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.30-21.03.05:032][415]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2022.10.30-21.03.05:032][415]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2022.10.30-21.03.05:036][415]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2022.10.30-21.03.05:036][415]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2022.10.30-21.03.05:036][415]LogInit: FAudioDevice initialized.
+[2022.10.30-21.03.05:037][415]LogAudio: Display: Audio Device (ID: 6) registered with world 'Principal'.
+[2022.10.30-21.03.05:067][415]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.10.30-21.03.05:076][415]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_Principal.Principal up for play (max tick rate 0) at 2022.10.30-18.03.05
+[2022.10.30-21.03.05:079][415]LogWorld: Bringing up level for play took: 0.012246
+[2022.10.30-21.03.05:084][415]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2022.10.30-21.03.05:088][415]PIE: Servidor conectado
+[2022.10.30-21.03.05:093][415]PIE: Play in editor total start time 0,327 seconds.
+[2022.10.30-21.03.33:194][689]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.30-21.03.33:194][689]LogWorld: BeginTearingDown for /Game/Mapas/UEDPIE_0_Principal
+[2022.10.30-21.03.33:195][689]LogWorld: UWorld::CleanupWorld for Principal, bSessionEnded=true, bCleanupResources=true
+[2022.10.30-21.03.33:198][689]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.30-21.03.33:392][689]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.30-21.03.33:398][689]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.30-21.03.33:450][689]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.30-21.03.33:451][689]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2022.10.30-21.03.33:463][689]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2022.10.30-21.03.33:489][689]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.30-21.03.33:500][689]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2022.10.30-21.03.33:624][690]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2022.10.30-21.03.39:485][739]Cmd: DELETE
+[2022.10.30-21.03.39:486][739]Cmd: ACTOR DELETE
+[2022.10.30-21.03.39:528][739]LogEditorActor: Deleted Actor: Emitter
+[2022.10.30-21.03.39:572][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2022.10.30-21.03.39:579][739]LogEditorActor: Deleted 1 Actors (0.092 secs)
+[2022.10.30-21.04.06:228][955]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Blueprints/Blueprint_WallSconce.Blueprint_WallSconce_C
+[2022.10.30-21.04.06:228][955]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Blueprints/Blueprint_WallSconce.Blueprint_WallSconce_C
+[2022.10.30-21.04.06:231][955]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Blueprints/Blueprint_WallSconce.Blueprint_WallSconce as actor: Blueprint_WallSconce_C /Game/Mapas/Principal.Principal:PersistentLevel.Blueprint_WallSconce_C_0
+[2022.10.30-21.04.06:235][955]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Blueprints/Blueprint_WallSconce.Blueprint_WallSconce as actor: Blueprint_WallSconce_C /Game/Mapas/Principal.Principal:PersistentLevel.Blueprint_WallSconce_C_0
+[2022.10.30-21.04.08:147][970]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Blueprints/Blueprint_WallSconce.Blueprint_WallSconce_C
+[2022.10.30-21.04.08:148][970]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Blueprints/Blueprint_WallSconce.Blueprint_WallSconce_C
+[2022.10.30-21.04.08:157][970]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Blueprints/Blueprint_WallSconce.Blueprint_WallSconce as actor: Blueprint_WallSconce_C /Game/Mapas/Principal.Principal:PersistentLevel.Blueprint_WallSconce_C_1
+[2022.10.30-21.04.08:163][970]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Blueprints/Blueprint_WallSconce.Blueprint_WallSconce as actor: Blueprint_WallSconce_C /Game/Mapas/Principal.Principal:PersistentLevel.Blueprint_WallSconce_C_1
+[2022.10.30-21.04.41:043][229]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.30-21.04.41:083][229]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.30-21.04.41:084][229]PIE: New page: Sessão de PIE : Principal (30 de out de 2022 15:04:41)
+[2022.10.30-21.04.41:084][229]LogPlayLevel: Creating play world package: /Game/Mapas/UEDPIE_0_Principal
+[2022.10.30-21.04.41:210][229]LogPlayLevel: PIE: StaticDuplicateObject took: (0.125114s)
+[2022.10.30-21.04.41:210][229]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mapas/Principal.Principal to /Game/Mapas/UEDPIE_0_Principal.Principal (0.125722s)
+[2022.10.30-21.04.41:210][229]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.30-21.04.41:211][229]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.30-21.04.41:214][229]LogAIModule: Creating AISystem for world Principal
+[2022.10.30-21.04.41:216][229]LogPlayLevel: PIE: World Init took: (0.005616s)
+[2022.10.30-21.04.41:302][229]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2022.10.30-21.04.41:306][229]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.10.30-21.04.41:306][229]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.30-21.04.41:307][229]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.30-21.04.41:307][229]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.30-21.04.41:307][229]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.30-21.04.41:307][229]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.30-21.04.41:307][229]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.30-21.04.41:307][229]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.30-21.04.41:308][229]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.30-21.04.41:311][229]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.30-21.04.41:312][229]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.30-21.04.41:312][229]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.30-21.04.41:320][229]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.30-21.04.41:378][229]LogAudioMixer: Display: Using Audio Hardware Device LG TV (Áudio Intel(R) para telas)
+[2022.10.30-21.04.41:379][229]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.30-21.04.41:380][229]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.30-21.04.41:380][229]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.30-21.04.41:382][229]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2022.10.30-21.04.41:383][229]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2022.10.30-21.04.41:388][229]LogInit: FAudioDevice initialized.
+[2022.10.30-21.04.41:388][229]LogAudio: Display: Audio Device (ID: 7) registered with world 'Principal'.
+[2022.10.30-21.04.41:396][229]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2022.10.30-21.04.41:396][229]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2022.10.30-21.04.41:415][229]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.10.30-21.04.41:427][229]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_Principal.Principal up for play (max tick rate 0) at 2022.10.30-18.04.41
+[2022.10.30-21.04.41:430][229]LogWorld: Bringing up level for play took: 0.014451
+[2022.10.30-21.04.41:435][229]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2022.10.30-21.04.41:453][229]PIE: Servidor conectado
+[2022.10.30-21.04.41:455][229]PIE: Play in editor total start time 0,372 seconds.
+[2022.10.30-21.04.46:384][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.30-21.04.46:384][276]LogWorld: BeginTearingDown for /Game/Mapas/UEDPIE_0_Principal
+[2022.10.30-21.04.46:384][276]LogWorld: UWorld::CleanupWorld for Principal, bSessionEnded=true, bCleanupResources=true
+[2022.10.30-21.04.46:387][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.30-21.04.46:596][276]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.30-21.04.46:603][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.30-21.04.46:648][276]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.30-21.04.46:649][276]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2022.10.30-21.04.46:656][276]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2022.10.30-21.04.46:679][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.30-21.04.46:689][276]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2022.10.30-21.04.46:828][277]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2022.10.30-21.05.50:285][735]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2022.10.30-21.05.50:411][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mapas/Principal" FILE="../../../../../../Users/User/Documents/Unreal Projects/Teste/Content/Mapas/Principal.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.30-21.05.50:428][735]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2022.10.30-21.05.50:436][735]LogTexture: Display: Building textures: /Game/Mapas/Principal.Principal:PersistentLevel.Landscape_0.Weightmap_9 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.10.30-21.05.50:445][735]LogTexture: Display: Building textures: /Game/Mapas/Principal.Principal:PersistentLevel.Landscape_0.Weightmap_21 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.10.30-21.05.50:449][735]LogTexture: Display: Building textures: /Game/Mapas/Principal.Principal:PersistentLevel.Landscape_0.Weightmap_20 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.10.30-21.05.50:592][735]LogTexture: Display: Building textures: /Game/Mapas/Principal.Principal:PersistentLevel.Landscape_0.Weightmap_19 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.10.30-21.05.50:593][735]LogSavePackage: Moving output files for package: /Game/Mapas/Principal
+[2022.10.30-21.05.50:594][735]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/Teste/Saved/Principal60CDD7CB41C1581A4BB006BD78C48007.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/Teste/Content/Mapas/Principal.umap'
+[2022.10.30-21.05.50:613][735]LogFileHelpers: Nenhuma alteração a salvar!
+[2022.10.30-21.05.50:613][735]LogFileHelpers: Saving map 'Principal' took 0.203
+[2022.10.30-21.05.50:639][735]AssetCheck: New page: Asset Save: Principal
+[2022.10.30-21.05.50:639][735]LogContentValidation: Display: Validating World /Game/Mapas/Principal.Principal
